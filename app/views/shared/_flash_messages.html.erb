@@ -1,0 +1,11 @@
+<% if notice%>
+  <div id="notice-wrapper">
+    <a href="" class="close" data-dismiss="notice">&#215;</a>
+    <p class="notice"><%= notice%></p>
+  </div> 
+<% elsif alert%>
+  <div id="notice-wrapper">
+    <a href="" class="close" data-dismiss="alert">&#215;</a>
+    <p class="alert"><%= alert%></p>
+  </div>
+<%end%>

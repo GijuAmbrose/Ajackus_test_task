@@ -1,0 +1,18 @@
+fr:
+  hello: "Hello world"
+  send_us: "Envoie-nous un message"
+  tell_us_name: "Dites-nous votre nom"
+  first_name: "Prénom"
+  last_name: "Nom de famille"
+  example_email: "Par exemple. example@email.com"
+  email: "Entrer votre Email*"
+  phone: "Entrez le numéro de téléphone"
+  message: "Message *"
+  write_message: "Écrivez-nous un message"
+  send_message: "Envoyer le message"
+  address: "Adresse"
+  lets_talk: "Parlons"
+  general_support: "Support général"
+  success_message_email: "Enregistré avec succès et l'e-mail a été envoyé !!"
+  failed_message_email: "L'envoi du message a échoué !!"
+
