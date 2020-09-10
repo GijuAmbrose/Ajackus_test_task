@@ -31,7 +31,13 @@ Run the following commands to create and setup the database.
 bundle exec rake db:create
 bundle exec rake db:setup
 ```
-##### 4. Start the Rails server
+
+##### 4. To run Tests
+You can run test by using the command given below.
+``` 
+rspec
+```
+##### 5. Start the Rails server
 
 You can start the rails server using the command given below.
 
