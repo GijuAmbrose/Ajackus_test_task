@@ -3,6 +3,6 @@ class UsermailerMailer < ApplicationMailer
    
    def contact_email(params)
       @params = params
-      mail(to: "jijoakalarikkal@gmail.com", subject: 'Ajackus - Contact Email')
+      mail(to: "info@ajackus.com", subject: 'Ajackus - Contact Us Email')
    end
 end
