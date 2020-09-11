@@ -42,6 +42,3 @@ yarn-debug.log*
 
 # Ignore application configuration
 /config/application.yml
-
-#Ingnore coverage directory
-coverage/*
