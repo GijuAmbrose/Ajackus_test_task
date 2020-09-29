@@ -15,4 +15,10 @@ fr:
   general_support: "Support général"
   success_message_email: "Enregistré avec succès et l'e-mail a été envoyé !!"
   failed_message_email: "L'envoi du message a échoué !!"
-
+  name_in_email: "Nom"
+  email_id: "Email"
+  message_in_mail: "Message"
+  email_validation: "Une adresse e-mail valide est requise: ex@abc.xyz"
+  last_name_validation: "Tapez le nom"
+  first_name_validation: "Tapez le prénom"
+  message_validation: "Le message est requis"

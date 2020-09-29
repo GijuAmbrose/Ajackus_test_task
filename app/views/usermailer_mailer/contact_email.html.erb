@@ -5,19 +5,19 @@
    </head>
    
    <body>
-      <h1>Contact Us</h1>
+      <h1> <%= t 'contact_us' %>:</h1>
       
       <table class="table">
        <tr>
-         <td>Name:</td>
+         <td><%= t 'name_in_email' %>:</td>
          <td><%= @params[:first_name]%></td>
        </tr>
        <tr>
-         <td>Email:</td>
+         <td><%= t 'email_id'%>:</td>
          <td><%= @params[:email]%></td>
        </tr>
        <tr>
-         <td>Message:</td>
+         <td><%= t 'message_in_mail'%>:</td>
          <td><%= @params[:message]%></td>
        </tr>
      </table>

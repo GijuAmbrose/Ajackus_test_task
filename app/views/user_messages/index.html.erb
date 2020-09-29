@@ -7,17 +7,17 @@
 				<%= t 'send_us'%> 
 			</span>
 			<label class="label-input100" for="first_name"><%= t 'tell_us_name'%></label>
-			<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
+			<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate= "<%= t 'first_name_validation'%>">
 				<%= f.text_field :first_name, id: "first_name", class: "input100", placeholder:  "#{t 'first_name'}" %>
 				<span class="focus-input100"></span>
 			</div>
-			<div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
+			<div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate= "<%= t 'last_name_validation'%>">
 				<%= f.text_field :last_name, id: "last_name", class: "input100", placeholder: "#{t 'last_name'}"%>
 				<span class="focus-input100"></span>
 			</div>
 
 			<label class="label-input100" for="email"> <%= t 'email'%></label>
-			<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+			<div class="wrap-input100 validate-input" data-validate= "<%= t 'email_validation'%>" >
 				<%= f.text_field :email, id: "email", class: "input100", placeholder: "#{t 'example_email'}"%>
 				<span class="focus-input100"></span>
 			</div>
@@ -29,7 +29,7 @@
 			</div>
 
 			<label class="label-input100" for="message"> <%= t 'message'%></label>
-			<div class="wrap-input100 validate-input" data-validate = "Message is required">
+			<div class="wrap-input100 validate-input" data-validate= "<%= t 'message_validation' %>">
 				<%= f.text_area :message, id: "message", class: "input100", placeholder: "#{t 'write_message'}"%>
 				<span class="focus-input100"></span>
 			</div>
